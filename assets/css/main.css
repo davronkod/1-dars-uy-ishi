@@ -1,0 +1,149 @@
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url(../fonts/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: WorkSans-Medium;
+    src: url(../fonts/WorkSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: WorkSans-SemiBold;
+    src: url(../fonts/WorkSans-SemiBold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-left: 100px;
+
+}
+
+.box {
+    width: 250px;
+    height: 380px;
+    border: 1px solid white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px 0px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.imgg {
+    text-align: center;
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.boxp {
+    font-family: WorkSans-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 24px;
+
+}
+
+.boxp12 {
+    font-family: WorkSans-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.boxp10 {
+    font-family: WorkSans-Regular;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 65px;
+}
+
+.boxh3 {
+    font-family: WorkSans-SemiBold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.yuld {
+    margin-top: 9px;
+    cursor: pointer;
+}
+
+.teg {
+    display: flex;
+    margin-top: 10px;
+}
+
+.kota {
+    margin-left: 15px;
+}
+
+.narxp {
+    font-family: WorkSans-SemiBold;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #006D77;
+    cursor: pointer;
+}
+
+.btnn {
+    font-family: WorkSans-Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 67px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #BEE1E6;
+    color: #006D77;
+    border: 1px solid #BEE1E6;
+}
+
+.btnn {
+    font-family: WorkSans-Medium;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 67px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #BEE1E6;
+    color: #006D77;
+    border: 1px solid #BEE1E6;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.btn {
+    margin-left: 90px;
+}
